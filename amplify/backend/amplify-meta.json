@@ -1,0 +1,43 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyfbda5a85ffe74-staging-51211-authRole",
+      "UnauthRoleArn": "arn:aws:iam::992941925036:role/amplify-amplifyfbda5a85ffe74-staging-51211-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::992941925036:role/amplify-amplifyfbda5a85ffe74-staging-51211-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyfbda5a85ffe74-staging-51211-deployment",
+      "UnauthRoleName": "amplify-amplifyfbda5a85ffe74-staging-51211-unauthRole",
+      "StackName": "amplify-amplifyfbda5a85ffe74-staging-51211",
+      "StackId": "arn:aws:cloudformation:us-east-1:992941925036:stack/amplify-amplifyfbda5a85ffe74-staging-51211/2bd05bd0-9976-11ee-982e-0a00d359c40f",
+      "AmplifyAppId": "d2shl9x4ukz9ef"
+    }
+  },
+  "function": {
+    "getUserTasks": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2023-12-13T06:45:54.012Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2023-12-13T06:45:54.046Z",
+      "distZipFilename": "getUserTasks-4c696c2b547a314c444b-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-amplifyfbda5a85ffe74-staging-51211-deployment",
+        "s3Key": "amplify-builds/getUserTasks-4c696c2b547a314c444b-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyfbda5a85ffe74-staging-51211-deployment/amplify-cfn-templates/function/getUserTasks-cloudformation-template.json",
+        "logicalId": "functiongetUserTasks"
+      },
+      "lastPushTimeStamp": "2023-12-13T06:47:28.101Z",
+      "output": {
+        "LambdaExecutionRoleArn": "arn:aws:iam::992941925036:role/taskmanagerappLambdaRole181fb6f0-staging",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:lambda:us-east-1:992941925036:function:getUserTasks-staging",
+        "Name": "getUserTasks-staging",
+        "LambdaExecutionRole": "taskmanagerappLambdaRole181fb6f0-staging"
+      },
+      "lastPushDirHash": "NpHakYXf8vOY9F0pmCnpTU17fG8="
+    }
+  }
+}
