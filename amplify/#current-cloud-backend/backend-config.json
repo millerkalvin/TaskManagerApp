@@ -1,0 +1,27 @@
+{
+  "function": {
+    "getUserTasks": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_getUserTasks_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getUserTasks"
+        }
+      ]
+    },
+    "AMPLIFY_function_getUserTasks_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getUserTasks"
+        }
+      ]
+    }
+  }
+}
