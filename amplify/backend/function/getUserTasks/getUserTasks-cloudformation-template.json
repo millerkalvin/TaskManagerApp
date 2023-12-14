@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "taskmanagerappLambdaRole181fb6f0",
+            "taskmanagerappLambdaRoled73db364",
             {
               "Fn::Join": [
                 "",
                 [
-                  "taskmanagerappLambdaRole181fb6f0",
+                  "taskmanagerappLambdaRoled73db364",
                   "-",
                   {
                     "Ref": "env"

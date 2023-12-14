@@ -155,10 +155,10 @@
     "functiongetUserTasks": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-amplifyfbda5a85ffe74-staging-51211-deployment/amplify-cfn-templates/function/getUserTasks-cloudformation-template.json",
+        "TemplateURL": "https://s3.amazonaws.com/amplify-amplifydc475c4768a54-staging-73909-deployment/amplify-cfn-templates/function/getUserTasks-cloudformation-template.json",
         "Parameters": {
-          "deploymentBucketName": "amplify-amplifyfbda5a85ffe74-staging-51211-deployment",
-          "s3Key": "amplify-builds/getUserTasks-4c696c2b547a314c444b-build.zip",
+          "deploymentBucketName": "amplify-amplifydc475c4768a54-staging-73909-deployment",
+          "s3Key": "amplify-builds/getUserTasks-724f7348507368347675-build.zip",
           "env": "staging"
         }
       }
